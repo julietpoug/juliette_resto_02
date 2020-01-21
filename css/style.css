@@ -1,0 +1,132 @@
+/* feuille de style pour le TP Maquette 2 */
+body {
+    background: paleturquoise;
+    font-family: 'Caveat Brush', serif;
+
+}
+/* style contenu de la page */
+#conteneur {
+    background: url(../img/motif.jpg);
+    width: 1000px;
+    margin: 0 auto;  
+    box-sizing: border-box;
+}
+/****** style en-tête de la page ********/
+header {
+    background: url(../img/planches.jpg);
+    width: 1000px;
+    height: 1024px;
+    
+}
+/* la navigation */
+nav {
+    text-align: right;
+    margin-top: 5px;
+}
+nav li {
+    display: inline;
+    text-decoration: none;
+    color: black;
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+h2 {
+    color: black;
+}
+h4 {
+    color: black;
+}
+
+#ourstory {
+    width: 1000px;
+    height: 500px;
+}
+#fare {
+    width: 1000px;
+    height: 310px;
+}
+#diner {
+    width: 1000px;
+    height: 460px;
+}
+#oeuf {
+    width: 1000px;
+    height: 600px;
+}
+#contact {
+    width: 1000px;
+    height: 240px;
+
+}
+header .cerf {
+    width: 472px;
+    height: 465px;
+    margin: auto;
+    opacity: initial;
+    font-weight: 50px;
+
+}
+.textasperge {
+    width: 200px;
+    height: 500px;
+    text-align: center;
+    float: left;
+}
+.imgasperge {
+    width: 800px;
+    height: 500px;
+    float: left;
+}
+.imgsavon {
+    width: 580px;
+    height: 310px;
+    float: left;
+}
+.textsavon {
+    background: url(../img/graines_01.jpg) no-repeat; 
+    width: 420px;
+    height: 310px;
+    text-align: center;
+    float: left;
+}
+/* .textsavon .graine {
+    margin-top: 5px;
+} */
+.textmoule {
+    background: url(../img/graines_02.jpg) no-repeat;
+    width: 300px;
+    height: 460px;
+    text-align: center;
+    float: left;
+}
+.imgmoule {
+    width: 700px;
+    height: 460px;
+    float: left;
+}
+.oeuf {
+    width: 1000px;
+    height: 600px;
+}
+hr {
+    color: palevioletred;
+    width: 20px;
+    text-align: left;
+}
+
+footer {
+    /* background: url(../img/motif.jpg); */
+    width: 1000px;
+    height: 240px;
+    text-align: left;
+}
+#social {
+    text-align: right;
+    text-decoration: palevioletred;
+}
+/******clear******/
+.clear {
+    clear: both;
+}
